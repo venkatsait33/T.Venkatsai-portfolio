@@ -5,6 +5,7 @@ import home_store from '../src/assets/Screenshot 2024-07-16 174050.png'
 import quantzime from "../src/assets/quantzime.png"
 import resume from '../src/assets/ai-resume.png'
 import crypto from '../src/assets/crypto-pic.png'
+import mernlms from '../src/assets/mern_LMS.png'
 export const info = {
   portfolio: [
     {
@@ -13,6 +14,13 @@ export const info = {
       image: quantzime,
       demo: "https://quantumzyme-blogs.vercel.app/",
       code: "https://github.com/venkatsait33/quantumzymeBlogs.git",
+    },
+    {
+      title: "MERN Learning Media Service (LMS)",
+      description: "A comprehensive learning management system built using MERN stack, offering a wide range of courses and resources for users to enhance their skills and knowledge. Experience seamless course management and personalized learning paths.",
+      image: mernlms,
+      demo: "https://mern-lms-ru7z.vercel.app/",
+      code: "https://github.com/venkatsait33/MERN_LMS.git",
     },
     {
       title: "Ai-Resume Builder",
