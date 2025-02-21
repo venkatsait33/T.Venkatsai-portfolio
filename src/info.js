@@ -6,6 +6,7 @@ import quantzime from "../src/assets/quantzime.png"
 import resume from '../src/assets/ai-resume.png'
 import crypto from '../src/assets/crypto-pic.png'
 import mernlms from '../src/assets/mern_LMS.png'
+import canalstreet  from "../src/assets/canelStreet.png"
 export const info = {
   portfolio: [
     {
@@ -21,6 +22,13 @@ export const info = {
       image: mernlms,
       demo: "https://mern-lms-ru7z.vercel.app/",
       code: "https://github.com/venkatsait33/MERN_LMS.git",
+    },
+    {
+      title: "Canal Street - Clone",
+      description: "I m thrilled to share my latest project, Canal Street - Clone, a fully responsive and dynamic replica of CanalStreet.market.com This project showcases the power of ReactJS, TailwindCSS, Framer Motion, and React Icons to create a seamless, interactive, and visually stunning user experience. 🌐",
+      image: canalstreet,
+      demo: "https://canal-street-clone.vercel.app/",
+      code:"https://github.com/venkatsait33/canal-street-clone"
     },
     {
       title: "Ai-Resume Builder",

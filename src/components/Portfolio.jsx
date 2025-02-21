@@ -19,15 +19,15 @@ const Portfolio = () => {
                 className="shadow-xl card card-compact bg-base-100 scroll-smooth lg:card-side   lg:h-[530px] md:w-[70%] lg:w-full md:mx-auto"
               >
                 <div>
-                  <figure className="">
+                  <figure className=" lg:flex lg:justify-center lg:items-center lg:mt-4">
                     <img
                       src={item.image}
                       alt="Shoes"
-                      className="object-scale-down w-[70%]  p-2 rounded-xl"
+                      className="p-2 aspect-video rounded-xl"
                     />
                   </figure>
                   <div className=" card-body">
-                    <h2 className="flex justify-center mt-10 card-title">{item.title}</h2>
+                    <h2 className="flex justify-center mt-4 card-title">{item.title}</h2>
                     <p className=" max-sm:text-sm line-clamp-5">{item.description}</p>
                     <div>
                       <div className="justify-evenly card-actions ">

@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import { About, Certificates, ContactForm, Footer, Home, NavBar, Portfolio } from "./components";
+import { About,  ContactForm, Footer, Home, NavBar, Portfolio } from "./components";
 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/certificates" element={<Certificates />} />
+         
           <Route path="/contactForm" element={<ContactForm />} />
         </Routes>
         <Footer />

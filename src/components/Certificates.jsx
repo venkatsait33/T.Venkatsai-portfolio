@@ -4,26 +4,31 @@ import SpotlightCard from "../utils/Spotlight-card";
 
 const Certificates = () => {
   return (
-    <div className="flex max-[560px]:flex-wrap items-center justify-center gap-8 w-100 h-100">
+    <div className="flex max-[560px]:flex-wrap items-center justify-center gap-8 w-100 h-100 ">
       <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
-        <div className="shadow-xl card ">
+        <div className="shadow-xl card h-[600px]">
           <div className="card-body">
             <h2 className="card-title">Web Development Online Course</h2>
             <p>it&apos;s organized by Frontlines EduTech Private Limited(FLM)</p>
-            <h1 className="text-base font-bold">Tech-Stack</h1>
-            <p>HTML5,CSS3,JAVASCRIPT</p>
+            <h1 className="text-base font-bold underline">Tech-Stack</h1>
+            <p className="flex flex-col gap-2">HTML5, <span>
+              CSS3
+            </span>
+              <span>
+                JAVASCRIPT
+              </span></p>
           </div>
           <figure>
             <img
               src={web_dev}
               alt="Web-Development-certificate"
-              className="mb-2 w-[90%]"
+              className="mb-2 aspect-video"
             />
           </figure>
         </div>
       </SpotlightCard>
       <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
-        <div className="shadow-xl  card">
+        <div className="shadow-xl card h-[600px]">
           <div className="card-body">
             <h2 className="card-title">ReactJS Online Course</h2>
             <p>it&apos;s organized by Frontlines EduTech Private Limited(FLM)</p>
@@ -41,7 +46,7 @@ const Certificates = () => {
             <img
               src={reactjs}
               alt="ReactJS-certificate"
-              className="w-[80%] mb-2"
+              className="mb-2 aspect-video"
             />
           </figure>
         </div>

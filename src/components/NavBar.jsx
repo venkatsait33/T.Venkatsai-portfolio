@@ -18,10 +18,6 @@ const links = [
     path: "",
   },
   {
-    label: "Certificates",
-    path: "/certificates",
-  },
-  {
     label: "Contact Me",
     path: "/contactForm",
   },

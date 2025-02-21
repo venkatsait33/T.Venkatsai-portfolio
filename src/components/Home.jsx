@@ -8,6 +8,8 @@ import { AnimatedContainer } from "../utils/AnimatedContainer";
 import StarBorder from "../utils/StarBorder";
 import { BackgroundLines } from "../utils/Background-lines";
 import Education from "./Education";
+import Certificates from "./Certificates";
+import SpotlightCard from "../utils/Spotlight-card";
 const Home = () => {
   return (
     <div>
@@ -31,7 +33,17 @@ const Home = () => {
                 </li>
 
                 <li className="mt-5 text-lg tracking-wide">
-                  <span>📧</span> &nbsp;venkatsait33@gmail.com
+                  <span>📧</span> &nbsp;
+                  <a
+                    href="mailto:venkatsait33@gmail.com"
+                    className="text-blue-500 hover:underline"
+                    onClick={(e) => {
+                      window.location.href = "mailto:venkatsait33@gmail.com";
+                      e.preventDefault(); // Prevents default behavior in case `href` doesn't work
+                    }}
+                  >
+                    venkatsait33@gmail.com
+                  </a>
                 </li>
               </ul>
 
@@ -98,32 +110,40 @@ const Home = () => {
       <div className="m-2">
         <Card />
       </div>
-      <div>
+      <div className="p-4">
         <div className="p-2 m-2">
           <h1 className="mb-2 text-xl tracking-widest text-center uppercase text-cent max-sm:text-sm">Internship</h1>
+          <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
+            <AnimatedContainer reverse={false} direction='vertical' distance={70}>
+              <div className="mb-5 lg:card-side card  lg:h-[420px] md:w-[70%] lg:w-full md:mx-auto ">
+                <figure className="lg:w-[50%]">
+                  <img
+                    src={certificate}
+                    alt="Internship-certificate"
+                    className="p-4 mb-2 rounded-lg "
+                  />
+                </figure>
+                <div className="card-body lg:w-[50%] ">
+                  <h2 className="card-title">Web Development Intern</h2>
+                  <p> Zummit Infolabs</p>
+                  <p>JULY 2024 - DEC 2024 </p>
+                  <p className="">
+                    Worked as a Web Development Intern at Zummit Infolabs for 5 months, contributing to the development of a Blogs Page based on Figma designs. Utilized ReactJS, TailwindCSS, DaisyUI, and Firebase for user authentication and data storage, with deployment on Vercel. Gained hands-on experience with Agile methodology, team collaboration, and delivering high-quality web solutions. This experience sharpened my technical and professional skills while enhancing my understanding of UI/UX-focused development.
+                  </p>
+                </div>
 
-          <AnimatedContainer reverse={false} direction='vertical' distance={70}>
-            <div className="mb-5 shadow-2xl lg:card-side card bg-base-100 lg:h-[420px] md:w-[70%] lg:w-full md:mx-auto ">
-              <figure className="lg:w-[50%]">
-                <img
-                  src={certificate}
-                  alt="Internship-certificate"
-                  className="p-4 mb-2 rounded-lg "
-                />
-              </figure>
-              <div className="card-body lg:w-[50%] ">
-                <h2 className="card-title">Web Development Intern</h2>
-                <p> Zummit Infolabs</p>
-                <p>JULY 2024 - DEC 2024 </p>
-                <p className="">
-                  Worked as a Web Development Intern at Zummit Infolabs for 5 months, contributing to the development of a Blogs Page based on Figma designs. Utilized ReactJS, TailwindCSS, DaisyUI, and Firebase for user authentication and data storage, with deployment on Vercel. Gained hands-on experience with Agile methodology, team collaboration, and delivering high-quality web solutions. This experience sharpened my technical and professional skills while enhancing my understanding of UI/UX-focused development.
-                </p>
               </div>
+            </AnimatedContainer>
+          </SpotlightCard>
 
-            </div>
-          </AnimatedContainer>
+        
         </div>
 
+      </div>
+      
+      <div className="p-8">
+        <h1 className="mb-2 text-xl tracking-widest text-center uppercase text-cent max-sm:text-sm">Certification</h1>
+        <Certificates />
       </div>
 
       <div className="p-2 m-2">
