@@ -7,26 +7,27 @@ import Card from "./Card";
 import { AnimatedContainer } from "../utils/AnimatedContainer";
 import StarBorder from "../utils/StarBorder";
 import { BackgroundLines } from "../utils/Background-lines";
+import Education from "./Education";
 const Home = () => {
   return (
     <div>
       <div className="flex px-5 mt-2 mb-2 sm:flex-wrap " id="title">
-        <div className="grid grid-cols-2 mt-2 mb-4 max-[560px]:grid-cols-1 max-[560px]:place-items-center">
-          <article className="p-10 text-center max-[560px]:w-full  justify-center items-center">
+        <div className="grid grid-cols-2 mb-4 mt-4 max-[560px]:grid-cols-1 max-[560px]:place-items-center">
+          <article className="p-4 text-center max-[560px]:w-full  justify-center items-center">
             <BackgroundLines >
               <h1 className="text-2xl flex flex-wrap gap-4 place-items-center font-medium tracking-wide max-[560px]:text-3xl">
                 Hi, I &apos;m{" "}
-                <span className="text-3xl animate-charcter text-slate-500">
+                <span className="text-4xl animate-charcter text-slate-500">
                   T Venkata Sai
                 </span>
                 <span className="hand">🤚</span>
               </h1>
               <ul>
-                <li className="mt-5 text-base tracking-wide">
+                <li className="mt-5 text-xl tracking-wide lg:text-start">
                   Front-End Developer
                 </li>
-                <li className="mt-5 text-base tracking-wide">
-                  passionate about creating beautiful and functional websites.
+                <li className="mt-5 text-base text-start">
+                  Hey there! I’m Tumma Venkata Sai, a passionate Frontend Developer with a love for building clean, user-friendly web applications. I recently completed an intensive ReactJS course, where I worked on hands-on projects that sharpened my skills in JavaScript, ReactJS, TailwindCSS, and DaisyUI. 
                 </li>
 
                 <li className="mt-5 text-lg tracking-wide">
@@ -83,11 +84,11 @@ const Home = () => {
 
 
           </article>
-          <article className="w-[100%] max flex items-center justify-center text-center">
+          <article className="w-[100%] flex items-center justify-center text-center">
             <img
               src={cv}
               alt=""
-              className="w-[80%] object-cover block max-[560px]:w-[50%] sm:place-items-center"
+              className="w-[70%] object-cover max-[560px]:w-[50%] sm:place-items-center"
             />
           </article>
 
@@ -101,7 +102,7 @@ const Home = () => {
         <div className="p-2 m-2">
           <h1 className="mb-2 text-xl tracking-widest text-center uppercase text-cent max-sm:text-sm">Internship</h1>
 
-          <AnimatedContainer reverse={false} direction='vertical' distance={100}>
+          <AnimatedContainer reverse={false} direction='vertical' distance={70}>
             <div className="mb-5 shadow-2xl lg:card-side card bg-base-100 lg:h-[420px] md:w-[70%] lg:w-full md:mx-auto ">
               <figure className="lg:w-[50%]">
                 <img
@@ -128,6 +129,9 @@ const Home = () => {
       <div className="p-2 m-2">
         <h1 className="mb-2 text-xl tracking-widest text-center uppercase text-cent max-sm:text-sm">Project</h1>
         <Portfolio />
+      </div>
+      <div>
+        <Education />
       </div>
     </div>
   );

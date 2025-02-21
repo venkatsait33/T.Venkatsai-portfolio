@@ -30,14 +30,50 @@ const About = () => {
           Pradesh, India - &nbsp; 521175
         </p>
 
-        <p className="p-2 mb-2 text-base tracking-wider max-sm:text-sm ">
-          I &apos; m T.VenkataSai, a Frontend Developer with a passion for
-          creating visually stunning and user-friendly web applications. With a
-          solid foundation in HTML, CSS, JavaScript, and React, I am dedicated
-          to delivering high-quality code that exceeds expectations.
+        <p className="flex flex-col gap-2 p-2 mb-2 text-base tracking-wider max-sm:text-sm ">
+          <span>
+
+            Aspiring Frontend Developer | ReactJS | JavaScript | MERN Stack
+          </span>
+          <span>
+
+
+            Hey there! I’m Tumma Venkata Sai, a passionate Frontend Developer with a love for building clean, user-friendly web applications. I recently completed an intensive ReactJS course, where I worked on hands-on projects that sharpened my skills in JavaScript, ReactJS, TailwindCSS, and DaisyUI.
+          </span>
+          <span>
+
+            During my internship at Zummit Infolabs, I had the opportunity to develop a Scientific Blog Page, where I worked with ReactJS, Firebase for authentication and data storage, and TailwindCSS for styling. I also collaborated using GitHub and deployed projects on Vercel, gaining real-world experience in modern web development.
+          </span>
+          <span>
+
+
+            Beyond my internship, I’ve worked on exciting projects like:
+          </span>
+          <span>
+
+
+            - MERN Learning Management System (LMS) – A full-stack e-learning platform with user authentication, course management, secure payments (Stripe), and media uploads (Cloudinary).
+          </span>
+
+          <span>
+
+
+            - AI-powered Resume Maker – A tool that generates professional resumes using Gemini AI, with data stored in Firebase Firestore.
+          </span>
+
+          <span>
+
+
+            - MERN Chatty App – A real-time chat application built using MongoDB, Express.js, React.js, and Node.js, featuring real-time messaging, user authentication (JWT), and WebSocket integration for seamless communication.
+          </span>
+
+          <span>
+
+
+            I’m always eager to learn, take on new challenges, and collaborate with like-minded professionals. If you’re looking for a . motivated, fast-learning frontend developerwho loves bringing ideas to life, let’s connect!
+          </span>
         </p>
       </ul>
-      <Education />
     </div>
   );
 };
