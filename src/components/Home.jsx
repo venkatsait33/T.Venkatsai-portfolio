@@ -29,7 +29,7 @@ const Home = () => {
                   Front-End Developer
                 </li>
                 <li className="mt-5 text-base text-start">
-                  Hey there! I’m Tumma Venkata Sai, a passionate Frontend Developer with a love for building clean, user-friendly web applications. I recently completed an intensive ReactJS course, where I worked on hands-on projects that sharpened my skills in JavaScript, ReactJS, TailwindCSS, and DaisyUI. 
+                  Hey there! I’m Tumma Venkata Sai, a passionate Frontend Developer with a love for building clean, user-friendly web applications.where I worked on hands-on projects that sharpened my skills in  ReactJS, JavaScript, HTML5, CSS3, TailwindCSS and DaisyUI.
                 </li>
 
                 <li className="mt-5 text-lg tracking-wide">
@@ -42,7 +42,7 @@ const Home = () => {
                       e.preventDefault(); // Prevents default behavior in case `href` doesn't work
                     }}
                   >
-                    venkatsait33@gmail.com
+                    tvenkatsai33@gmail.com
                   </a>
                 </li>
               </ul>
@@ -56,7 +56,7 @@ const Home = () => {
 
                 <li>
                   <a
-                    href="https://www.linkedin.com/in/venkatsai-t/"
+                    href="https://www.linkedin.com/in/venkata-sai-tumma/"
                     target="_blank"
                     className=" tooltip" data-tip="LinkedIn"
                   >
@@ -78,7 +78,7 @@ const Home = () => {
                   </StarBorder>
                 </Link>
 
-                <a href="https://drive.google.com/file/d/1DQRLb0Fh_XRL8sLsSMOOgj6RQ2UC1EU9/view?usp=sharing" target="_blank"
+                <a href="https://drive.google.com/file/d/1aC4Y9TssMrCD-A64inE-skmpKkiZ9sSb/view?usp=drive_linkhttps://drive.google.com/file/d/1aC4Y9TssMrCD-A64inE-skmpKkiZ9sSb/view?usp=sharing" target="_blank"
                 >
                   <StarBorder
                     as="button"
@@ -110,7 +110,7 @@ const Home = () => {
       <div className="m-2">
         <Card />
       </div>
-      <div className="p-4">
+      {/* <div className="p-4">
         <div className="p-2 m-2">
           <h1 className="mb-2 text-xl tracking-widest text-center uppercase text-cent max-sm:text-sm">Internship</h1>
           <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
@@ -139,8 +139,8 @@ const Home = () => {
         
         </div>
 
-      </div>
-      
+      </div> */}
+
       <div className="p-8">
         <h1 className="mb-2 text-xl tracking-widest text-center uppercase text-cent max-sm:text-sm">Certification</h1>
         <Certificates />

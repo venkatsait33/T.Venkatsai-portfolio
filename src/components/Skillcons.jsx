@@ -49,11 +49,12 @@ export const skill = [
     }, {
         icon: <SiDaisyui />,
         name: "DaisyUI",
-    }, {
-        icon: <SiShadcnui />,
-        name: "Shadcn UI"
-    }, {
-        icon: <SiVitest />,
-        name: "Vitest"
-    }
+    },
+    // {
+    //     icon: <SiShadcnui />,
+    //     name: "Shadcn UI"
+    // }, {
+    //     icon: <SiVitest />,
+    //     name: "Vitest"
+    // }
 ];
