@@ -78,7 +78,7 @@ const Home = () => {
                   </StarBorder>
                 </Link>
 
-                <a href="https://drive.google.com/file/d/1aC4Y9TssMrCD-A64inE-skmpKkiZ9sSb/view?usp=drive_linkhttps://drive.google.com/file/d/1aC4Y9TssMrCD-A64inE-skmpKkiZ9sSb/view?usp=sharing" target="_blank"
+                <a href="https://drive.google.com/file/d/1v6TaXNArikkkQzTn9-2fIhTDGq1N5sWP/view?usp=sharing" target="_blank"
                 >
                   <StarBorder
                     as="button"
