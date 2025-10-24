@@ -2,11 +2,8 @@ const Education = () => {
   return (
     <div>
       <div className="flex flex-col gap-2 p-2 m-2 mx-auto ">
-        <p className="text-xl tracking-widest text-center text-purple-200 uppercase max-sm:text-base">
-          Education
-        </p>
         <ul className="grid grid-cols-3 gap-4 p-2 max-sm:grid-cols-1 ">
-          <li className="flex flex-col gap-1 p-4 shadow-2xl card h-[250px] border-2 border-purple-200 ">
+          <li className="flex flex-col gap-1 p-4 shadow-2xl card h-[250px] border-2 border-purple-400 border-b-8 border-b-purple-400 rounded-2xl ">
             <p
               className="mt-4 text-lg font-semibold text-center max-sm:text-base"
               data-prefix=""
@@ -24,7 +21,7 @@ const Education = () => {
               </p>
             </div>
           </li>
-          <li className="flex flex-col gap-1 shadow-2xl max-sm:text-sm card h-[250px] border-2 border-purple-200">
+          <li className="flex flex-col gap-1 p-4 shadow-2xl card h-[250px] border-2 border-purple-400 border-b-8 border-b-purple-400 rounded-2xl ">
             <p className="mt-4 text-lg font-semibold text-center max-sm:text-base " data-prefix="">
               &nbsp;Diploma
             </p>
@@ -42,7 +39,7 @@ const Education = () => {
               </p>
             </div>
           </li>
-          <li className="flex flex-col gap-1 shadow-2xl card h-[250px] border-2 border-purple-200">
+          <li className="flex flex-col gap-1 p-4 shadow-2xl card h-[250px] border-2 border-purple-400 border-b-8 border-b-purple-400 rounded-2xl ">
             <p
               className="mt-4 text-lg font-semibold text-center max-sm:text-base "            
             >

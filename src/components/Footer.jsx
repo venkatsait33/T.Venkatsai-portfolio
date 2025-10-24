@@ -1,11 +1,8 @@
 const Footer = () => {
   return (
-    <div className="flex justify-center pb-4 text-center place-items-center">
-      <p>
-        Portfolio is created by <span className="text-blue-400">T.VenkataSai</span>
-      </p>{" "}
-      &nbsp;
-      <p>&copy; 2025</p>
+    <div className="flex justify-center pb-4 text-center shadow-2xl place-items-center h-[50px]">
+    
+      <p>&copy; Copyright 2025 Tumma Venkata sai - All Rights are received</p>
     </div>
   );
 };

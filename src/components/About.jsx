@@ -10,7 +10,7 @@ const About = () => {
     max-[970px]:w-[90%] w-full  flex flex-col gap-2 p-2 m-2 "
     >
       <ul className="flex flex-col gap-2 p-2 m-2 mockup-code">
-        <li className="text-xl tracking-widest text-center text-purple-200 uppercase">
+        <li className=" tracking-widest text-center text-3xl uppercase  bg-[linear-gradient(30deg,#fffb00,#ff00ea,#0ef)] bg-clip-text text-transparent">
           About Me
         </li>
         <p className="text-2xl font-semibold text-orange-300">

@@ -15,7 +15,6 @@ I’m a **frontend developer** with hands-on experience in building modern, resp
 - **Backend:** Node.js, Express.js, JWT, Bcrypt, Rest API, Mongoose  
 - **Database:** Firebase, MongoDB  
 - **Tools & Deployment:** Git, GitHub, Vercel, Postman, VS Code  
-- **Testing:** Vitest  
 
 ## 🚀 Projects  
 
@@ -32,8 +31,7 @@ A fully responsive blog page designed using ReactJS and Firebase, featuring auth
 🔹 **Tech Stack:** ReactJS, Firebase, TailwindCSS, DaisyUI, Vercel  
 
 ## 📩 Contact Me  
-- **Email:** [venkatsait33@gmail.com](mailto:venkatsait33@gmail.com)  
-- **LinkedIn:** [linkedin.com/in/venkatsai-t](https://www.linkedin.com/in/venkatsai-t/)  
+- **Email:** [venkatsait33@gmail.com](mailto:tvenkatsai33@gmail.com)   
 - **GitHub:** [github.com/venkatsait33](https://github.com/venkatsait33)  
 
 If you like my work or have any opportunities, feel free to reach out! 🚀  

@@ -26,10 +26,10 @@ const ContactForm = () => {
     }
   };
   return (
-    <div>
-      <div className="flex items-center justify-center m-2 border-2 rounded-lg shadow-md">
-        <div className="container mx-auto">
-          <div className="max-w-md p-5 mx-auto my-10 rounded-md shadow-sm">
+    <div className="">
+      <div className="flex items-center justify-center m-2 border-2 rounded-lg shadow-md ">
+        <div className="mx-auto ">
+          <div className="max-w-md p-5 mx-auto rounded-md shadow-sm">
             <div className="text-center">
               <h1 className="my-3 text-3xl font-semibold text-gray-500">
                 Contact Me
@@ -39,7 +39,7 @@ const ContactForm = () => {
                 or know more about me.
               </p>
             </div>
-            <div className="m-7">
+            <div className="m-3">
               <form
                 onSubmit={onSubmit}
                 action="https://api.web3htmlForms.com/submit"
@@ -65,7 +65,7 @@ const ContactForm = () => {
                     id="name"
                     placeholder="Name"
                     required
-                    className="w-full h-12 px-2 py-2 text-sm text-gray-900 placeholder-gray-400 bg-gray-100 rounded-lg focus:outline-none "
+                    className="w-full px-2 py-2 text-sm text-gray-900 placeholder-gray-400 bg-gray-100 rounded-lg focus:outline-none "
                   />
                 </div>
                 <div className="mb-6">
@@ -81,7 +81,7 @@ const ContactForm = () => {
                     id="email"
                     placeholder="Email"
                     required
-                    className="w-full h-12 px-3 py-2 text-sm text-gray-900 placeholder-gray-400 bg-gray-100 rounded-lg focus:outline-none"
+                    className="w-full px-3 py-2 text-sm text-gray-900 placeholder-gray-400 bg-gray-100 rounded-lg focus:outline-none"
                   />
                 </div>
                 <div className="mb-6">
@@ -97,7 +97,7 @@ const ContactForm = () => {
                     id="phone"
                     placeholder="1234567890"
                     required
-                    className="w-full h-12 px-3 py-2 text-sm text-gray-900 placeholder-gray-400 bg-gray-100 rounded-lg focus:outline-none"
+                    className="w-full px-3 py-2 text-sm text-gray-900 placeholder-gray-400 bg-gray-100 rounded-lg focus:outline-none"
                   />
                 </div>
                 <div className="mb-6">
@@ -113,7 +113,7 @@ const ContactForm = () => {
                     name="message"
                     id="message"
                     placeholder="Your Message"
-                    className="w-full px-3 py-2 text-sm text-gray-900 placeholder-gray-500 bg-gray-100 rounded-lg focus:outline-none"
+                    className="w-full h-20 px-3 py-2 text-sm text-gray-900 placeholder-gray-500 bg-gray-100 rounded-lg focus:outline-none"
                     required
                   ></textarea>
                 </div>

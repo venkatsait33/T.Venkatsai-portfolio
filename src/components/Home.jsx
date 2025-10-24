@@ -10,6 +10,7 @@ import { BackgroundLines } from "../utils/Background-lines";
 import Education from "./Education";
 import Certificates from "./Certificates";
 import SpotlightCard from "../utils/Spotlight-card";
+import { ColourfulText } from "../utils/ColourfulText";
 const Home = () => {
   return (
     <div>
@@ -47,10 +48,10 @@ const Home = () => {
                 </li>
               </ul>
 
-              <ul className="flex items-center justify-center p-3 mx-auto mt-10 gap-14 place-items-center">
+              <ul className="flex items-center justify-center p-3 mx-auto mt-10 mb-4 gap-14 place-items-center">
                 <li>
                   <a href="https://github.com/venkatsait33" target="_blank" className=" tooltip" data-tip="Git-Hub">
-                    <FaGithubSquare className="w-8 h-8 duration-300 text-slate-500 " />
+                    <span className="btn btn-circle btn-outline "><FaGithubSquare className="w-8 h-8 duration-300 " /></span>
                   </a>
                 </li>
 
@@ -60,7 +61,7 @@ const Home = () => {
                     target="_blank"
                     className=" tooltip" data-tip="LinkedIn"
                   >
-                    <FaLinkedin className="w-8 h-8 duration-300 text-slate-500 " />
+                    <span className="btn btn-circle btn-outline "><FaLinkedin className="w-8 h-8 duration-300 " /></span>
                   </a>
                 </li>
               </ul>
@@ -142,17 +143,20 @@ const Home = () => {
       </div> */}
 
       <div className="p-8">
-        <h1 className="mb-2 text-xl tracking-widest text-center uppercase text-cent max-sm:text-sm">Certification</h1>
+        <h1 className="mb-4 text-4xl tracking-widest text-center uppercase text-cent max-sm:text-sm bg-[linear-gradient(90deg,#fffb00,#ff00ea,#0ef)] bg-clip-text text-transparent">
+        
+          Certification</h1>
         <Certificates />
       </div>
 
       <div className="p-2 m-2">
-        <h1 className="mb-2 text-xl tracking-widest text-center uppercase text-cent max-sm:text-sm">Project</h1>
+        <h1 className="mb-4 text-4xl tracking-widest text-center uppercase text-cent max-sm:text-sm bg-[linear-gradient(90deg,#fffb00,#ff00ea,#0ef)] bg-clip-text text-transparent">Project</h1>
         <Portfolio />
       </div>
-      <div>
+      {/* <div>
+        <h1 className="mb-4 text-4xl tracking-widest text-center uppercase text-cent max-sm:text-sm bg-[linear-gradient(90deg,#fffb00,#ff00ea,#0ef)] bg-clip-text text-transparent">Education</h1>
         <Education />
-      </div>
+      </div> */}
     </div>
   );
 };

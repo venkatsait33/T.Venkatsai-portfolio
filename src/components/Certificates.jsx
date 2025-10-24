@@ -6,7 +6,7 @@ const Certificates = () => {
   return (
     <div className="flex max-[560px]:flex-wrap items-center justify-center gap-8 w-100 h-100 ">
       <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
-        <div className="shadow-xl card h-[600px]">
+        <div className="card h-[600px] font-semibold text-gray-300">
           <div className="card-body">
             <h2 className="card-title">Web Development Online Course</h2>
             <p>it&apos;s organized by Frontlines EduTech Private Limited(FLM)</p>
@@ -28,7 +28,7 @@ const Certificates = () => {
         </div>
       </SpotlightCard>
       <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
-        <div className="shadow-xl card h-[600px]">
+        <div className="card h-[600px] font-semibold text-gray-300">
           <div className="card-body">
             <h2 className="card-title">ReactJS Online Course</h2>
             <p>it&apos;s organized by Frontlines EduTech Private Limited(FLM)</p>

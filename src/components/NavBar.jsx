@@ -23,7 +23,6 @@ const links = [
   },
 ];
 const NavBar = () => {
-  console.log(links);
   const [theme, setTheme] = useState("light");
   const [activeLink, setActiveLink] = useState("");
 
@@ -38,7 +37,8 @@ const NavBar = () => {
   };
 
   return (
-    <div className="flex justify-center space-x-6 mx-auto  max-[560px]:p-5 text-center place-items-center navbar bg-base-100 ">
+    <div className="flex justify-between space-x-6 mx-auto  max-[560px]:p-5 text-center place-items-center fixed inset-x-0 top-0 z-50  backdrop-blur-sm p-4 ">
+      <h1 className="text-2xl font-semibold text-start max-[560px]:text-base bg-[linear-gradient(90deg,#fffb22,#ff11ea,#0eff)] bg-clip-text text-transparent">Venkata sai</h1>
       <div className="flex space-x-10 max-[560px]:space-x-2 max-[560px]:text-base text-xl place-items-center  ">
         {links.map((link, i) => (
           <div key={i} className={activeLink === link.path ? "active" : ""}>
@@ -49,7 +49,7 @@ const NavBar = () => {
             >
               <li>
                 {!link.type && (
-                  <p style={{ padding: "0.5rem 0" }} className="max-sm:text-sm">
+                  <p style={{ padding: "0.5rem 0" }} className="font-semibold max-sm:text-sm">
                     {link.label}
                   </p>
                 )}
