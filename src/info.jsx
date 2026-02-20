@@ -1,40 +1,52 @@
-import movieapp from "./assets/movieapp.png";
-import tic_tac from "./assets/tic-tac-toe.png";
-import apod from "../src/assets/Screenshot 2024-07-03 115729.png";
-import home_store from '../src/assets/Screenshot 2024-07-16 174050.png'
-import quantzime from "../src/assets/quantzime.png"
-import resume from '../src/assets/ai-resume.png'
-import crypto from '../src/assets/crypto-pic.png'
-import mernlms from '../src/assets/mern_LMS.png'
-import canalstreet from "../src/assets/canelStreet.png"
-import { FaGithub, FaHtml5, FaJsSquare, FaNodeJs, FaReact } from "react-icons/fa";
+import home_store from "../src/assets/Screenshot 2024-07-16 174050.png";
+import resume from "../src/assets/ai-resume.png";
+import crypto from "../src/assets/crypto-pic.png";
+import canalstreet from "../src/assets/canelStreet.png";
+import {
+  FaGithub,
+  FaHtml5,
+  FaJsSquare,
+  FaNodeJs,
+  FaReact,
+} from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io5";
 import { RiFirebaseFill, RiTailwindCssFill } from "react-icons/ri";
 import { SiDaisyui, SiExpress, SiMongodb, SiRedux } from "react-icons/si";
+import ieopd from "../src/assets/ieopd.png";
+import teamhub from "../src/assets/teamhub.png";
+import workspace from "../src/assets/workspace.png";
 export const info = {
   portfolio: [
     {
-      title: "Scientific Blog Page",
-      description: "Showcasing our published research and advancements in biotransformation, focused on clean and green chemistry. Explore innovative solutions driving sustainable progress in eco-friendly chemical processes.",
-      image: quantzime,
-      demo: "https://quantumzyme-blogs.vercel.app/",
-      code: "https://github.com/venkatsait33/quantumzymeBlogs.git",
+      title: "Intelligent Enterprise Operations & Decision Platform ",
+      description:
+        "A unified platform to manage workflows, ensure compliance, and drive data-backed decisions across your organization.",
+      image: ieopd,
+      demo: "https://ieodp-frontend-react.vercel.app/",
       icons: [
         {
-          icon: <FaReact/>,
-          name: "React"
+          icon: <FaNodeJs />,
+          name: "Node JS",
         },
         {
-          icon: <FaJsSquare />,
-          name: "JavaScript",
+          icon: <SiExpress />,
+          name: "Express JS",
         },
         {
-          icon: <FaHtml5 />,
-          name: "HTML5",
+          icon: <SiMongodb />,
+          name: "MongoDB",
         },
         {
-          icon: <IoLogoCss3 />,
-          name: "CSS3",
+          icon: <FaReact />,
+          name: "React",
+        },
+        {
+          icon: <SiRedux />,
+          name: "Redux",
+        },
+        {
+          icon: <SiDaisyui />,
+          name: "DaisyUI",
         },
         {
           icon: <RiTailwindCssFill />,
@@ -44,30 +56,16 @@ export const info = {
           icon: <FaGithub />,
           name: "Github",
         },
-        {
-          icon: <RiFirebaseFill />,
-          name: "Firebase",
-        },
       ],
     },
     {
-      title: "MERN Learning Media Service (LMS)",
-      description: "A comprehensive learning management system built using MERN stack, offering a wide range of courses and resources for users to enhance their skills and knowledge. Experience seamless course management and personalized learning paths.",
-      image: mernlms,
-      demo: "https://mern-lms-ru7z.vercel.app/",
-      code: "https://github.com/venkatsait33/MERN_LMS.git",
+      title: "Teamhub Employee Portal",
+      description:
+        "A comprehensive employee portal for managing employee data, attendance, and performance.",
+      image: teamhub,
+      demo: "https://teamhub-gamma.vercel.app/",
+      code: "https://github.com/venkatsait33/TEAMHUB",
       icons: [
-        {
-          icon: <FaNodeJs />,
-          name: "Node JS",
-        },
-        {
-          icon: <SiExpress />,
-          name: "Express JS"
-        }, {
-          icon: <SiMongodb />,
-          name: "MongoDB"
-        },
         { icon: <FaReact />, name: "React" },
         {
           icon: <FaJsSquare />,
@@ -82,9 +80,33 @@ export const info = {
           name: "Github",
         },
         {
-          icon: <SiRedux />,
-          name: "Redux",
-        }, {
+          icon: <SiDaisyui />,
+          name: "DaisyUI",
+        },
+      ],
+    },
+    {
+      title: "WorkSpace for Offices",
+      description:
+        " workspace for offices is a platform that helps businesses manage their office space, including scheduling, maintenance, and inventory management.",
+      image: workspace,
+      demo: "https://workspace-beige-alpha.vercel.app/",
+      code: "https://github.com/venkatsait33/workspace",
+      icons: [
+        { icon: <FaReact />, name: "React" },
+        {
+          icon: <FaJsSquare />,
+          name: "JavaScript",
+        },
+        {
+          icon: <RiTailwindCssFill />,
+          name: "Tailwind CSS",
+        },
+        {
+          icon: <FaGithub />,
+          name: "Github",
+        },
+        {
           icon: <SiDaisyui />,
           name: "DaisyUI",
         },
@@ -92,7 +114,8 @@ export const info = {
     },
     {
       title: "Canal Street - Clone",
-      description: "I m thrilled to share my latest project, Canal Street - Clone, a fully responsive and dynamic replica of CanalStreet.market.com This project showcases the power of ReactJS, TailwindCSS, Framer Motion, and React Icons to create a seamless, interactive, and visually stunning user experience. 🌐",
+      description:
+        "I m thrilled to share my latest project, Canal Street - Clone, a fully responsive and dynamic replica of CanalStreet.market.com This project showcases the power of ReactJS, TailwindCSS, Framer Motion, and React Icons to create a seamless, interactive, and visually stunning user experience. 🌐",
       image: canalstreet,
       demo: "https://canal-street-clone.vercel.app/",
       code: "https://github.com/venkatsait33/canal-street-clone",
@@ -156,8 +179,7 @@ export const info = {
         {
           icon: <RiFirebaseFill />,
           name: "Firebase",
-        }
-
+        },
       ],
     },
     {
@@ -174,10 +196,11 @@ export const info = {
         },
         {
           icon: <SiExpress />,
-          name: "Express JS"
-        }, {
+          name: "Express JS",
+        },
+        {
           icon: <SiMongodb />,
-          name: "MongoDB"
+          name: "MongoDB",
         },
         { icon: <FaReact />, name: "React" },
         {
@@ -195,7 +218,8 @@ export const info = {
         {
           icon: <SiRedux />,
           name: "Redux",
-        }, {
+        },
+        {
           icon: <SiDaisyui />,
           name: "DaisyUI",
         },
@@ -232,69 +256,5 @@ export const info = {
         },
       ],
     },
-    {
-      title: "APOD-NASA",
-      description:
-        "Astronomy Picture of the Day (APOD) viewer using ReactJS and TailwindCSS. This application fetches stunning daily images from NASA's APOD API and presents them in a user-friendly and visually appealing interface.",
-      image: apod,
-      demo: "https://apod-nasa-project.vercel.app/",
-      code: "https://github.com/venkatsait33/APOD_NASA_Project.git",
-      icons: [
-        { icon: <FaReact />, name: "React" },
-        {
-          icon: <FaJsSquare />,
-          name: "JavaScript",
-        },
-        {
-          icon: <FaHtml5 />,
-          name: "HTML5",
-        },
-        {
-          icon: <IoLogoCss3 />,
-          name: "CSS3",
-        },
-        {
-          icon: <RiTailwindCssFill />,
-          name: "Tailwind CSS",
-        },
-        {
-          icon: <FaGithub />,
-          name: "Github",
-        },
-      ],
-    },
-    {
-      title: "Tic-Tac-Toe",
-      description:
-        "Tic-Tac-Toe game is a two-player game in which the players take turns marking the spaces in the grid. The grid change according to given input value, the grid increases and its makes gameplay more interesting to the players to play.",
-      image: tic_tac,
-      demo: "https://tic-tac-toe-cell-size-according-input-value.vercel.app/",
-      code: "https://github.com/venkatsait33/Tic-Tac-toe_Cell_size_according_inputValue.git",
-      icons: [
-        { icon: <FaReact />, name: "React" },
-        {
-          icon: <FaJsSquare />,
-          name: "JavaScript",
-        },
-        {
-          icon: <FaHtml5 />,
-          name: "HTML5",
-        },
-        {
-          icon: <IoLogoCss3 />,
-          name: "CSS3",
-        },
-        {
-          icon: <RiTailwindCssFill />,
-          name: "Tailwind CSS",
-        },
-        {
-          icon: <FaGithub />,
-          name: "Github",
-        }
-      ],
-    },
-
-    // Add more projects here...
   ],
 };
